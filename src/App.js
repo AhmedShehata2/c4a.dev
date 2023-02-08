@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>App.JS file</h1>
+      <h1>React Course</h1>
     </>
   );
 }
