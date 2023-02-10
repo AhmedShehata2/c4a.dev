@@ -1,15 +1,19 @@
 import React from "react";
+import './Footer.css'
+import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
     <div>
       <header className="hide-when-mobile">
-        <h1><a href="/">C 4 A</a></h1>
+        <h1>
+          <Link to="/">C 4 A</Link>
+        </h1>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="/html">
+            <NavLink className="main-link" to="/html">
               HTML
-            </a>
+            </NavLink>
             {/* <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
@@ -23,9 +27,9 @@ export default function Header() {
             </ul> */}
           </li>
           <li className="main-list">
-            <a className="main-link" href="/css">
+            <NavLink className="main-link" to="/css">
               CSS
-            </a>
+            </NavLink>
             {/* <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
@@ -50,9 +54,9 @@ export default function Header() {
             </ul> */}
           </li>
           <li className="main-list">
-            <a className="main-link" href="/javascript">
+            <NavLink className="main-link" to="/javascript">
               JavaScript
-            </a>
+            </NavLink>
             {/* <ul className="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon🔥</a>
@@ -62,7 +66,7 @@ export default function Header() {
         </ul>
       </header>
       <header className="show-when-mobile">
-        <h1>C 4 A **</h1>
+        <h1>C 4 A</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>

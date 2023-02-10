@@ -73,7 +73,7 @@ h1 {
   padding: 8px 15px;
 }
 
-.main-link:hover {
+.main-link:hover ,.main-link.active{
   color: cyan;
   box-shadow: 0 0 5px cyan;
   border-radius: 5px;
@@ -163,13 +163,7 @@ main{
   text-align: center;
 }
 
-footer{
-  background-color: #1b1b1b;
 
-  padding: 20px 0;
-  text-align: center;
-  font-size: 18px;
-}
 
 /* ==================
     3. header of mobile
@@ -177,3 +171,8 @@ footer{
 .show-when-mobile {
   display: none;
 }
+
+
+
+
+
