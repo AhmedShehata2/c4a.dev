@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+
 import Home from './pages/Home';
 import Css from './pages/Css';
 import Html from './pages/Html';
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}><App /></RouterProvider>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

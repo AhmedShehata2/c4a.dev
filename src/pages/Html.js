@@ -1,13 +1,13 @@
-import Footer from "../compo/Footer";
-import Header from "../compo/Header";
-import MainPage from '../compo/MainPage';
+import Header from '../compo/Header'
+import Footer from '../compo/Footer'
 
 
 export default function Html() {
   return (
     <>
       <Header />
-        <MainPage pageName="HTML Page" />
+
+      <main>Html Page</main>
       <Footer />
     </>
   );

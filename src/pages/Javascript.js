@@ -1,12 +1,11 @@
-import Footer from "../compo/Footer";
 import Header from "../compo/Header";
-import MainPage from "../compo/MainPage";
+import Footer from "../compo/Footer";
 
 export default function Javascript() {
   return (
     <>
       <Header />
-      <MainPage pageName="Java Script Page" />
+      <main>Javascript Page</main>
       <Footer />
     </>
   );

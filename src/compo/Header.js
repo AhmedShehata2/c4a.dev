@@ -1,19 +1,16 @@
 import React from "react";
-import './Footer.css'
-import { Link, NavLink } from "react-router-dom";
+import './Header.css'
 
 export default function Header() {
   return (
     <div>
       <header className="hide-when-mobile">
-        <h1>
-          <Link to="/">C 4 A</Link>
-        </h1>
+        <h1><a href="/">C 4 A</a></h1>
         <ul className="flex">
           <li className="main-list">
-            <NavLink className="main-link" to="/html">
+            <a className="main-link" href="/html">
               HTML
-            </NavLink>
+            </a>
             {/* <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
@@ -27,9 +24,9 @@ export default function Header() {
             </ul> */}
           </li>
           <li className="main-list">
-            <NavLink className="main-link" to="/css">
+            <a className="main-link" href="/css">
               CSS
-            </NavLink>
+            </a>
             {/* <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
@@ -54,9 +51,9 @@ export default function Header() {
             </ul> */}
           </li>
           <li className="main-list">
-            <NavLink className="main-link" to="/javascript">
+            <a className="main-link" href="/javascript">
               JavaScript
-            </NavLink>
+            </a>
             {/* <ul className="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon🔥</a>
